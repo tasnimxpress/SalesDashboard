@@ -95,6 +95,12 @@ Profit_Percentage = DIVIDE([Profit],[TotalCost])
 Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 ```
 
+### Dashboard Creation
+Power BI was used to create interactive dashboards, providing a visual representation of the analyzed data.
+          **Sales Analysis Dashboard:** Includes overall sales metrics, revenue and profit margin trends, cumulative sales, and profits by product category.
+          **Salespersons Performance Dashboard:** Highlights individual salesperson performance in terms of sales, profit, and profit percentage.
+
+
 ## Results/Findings
 
 The analysis results are summarized as follows:
