@@ -1,4 +1,4 @@
-# SalesDashboard
+# Sales Dashboard
 
 ## Table of Contents
 
@@ -31,6 +31,7 @@ Sales Data: The primary dataset used for this analysis is the "sales_data.xlxs" 
 - DAX - Calculate Different Metrics
 
 ## Data Analysis
+---
 
 ### Data Cleaning/Preparation
 
@@ -100,6 +101,7 @@ Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 ```
 
 ## Results/Findings
+---
 
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
@@ -107,6 +109,7 @@ The analysis results are summarized as follows:
 3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
 
 ## Recommendations
+---
 
 Based on the analysis, we recommend the following actions:
 - Invest in marketing and promotions during peak sales seasons to maximize revenue.
@@ -114,6 +117,7 @@ Based on the analysis, we recommend the following actions:
 - Implement a customer segmentation strategy to target high-LTV customers effectively.
 
 ### Limitations
+---
 
 I had to remove all zero values from the budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
