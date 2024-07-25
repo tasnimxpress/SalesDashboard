@@ -54,6 +54,10 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Who are the top-performing salespersons by total sales and profit?
 - Sales, profit, and profit percentages for each salesperson.
 
+### Data Model
+![Data Model](https://github.com/tasnimxpress/SalesDashboard/blob/main/Data%20Model.png)
+
+
 ### Calculations to find insights
 
 Some DAX/Calculation I worked with:
@@ -97,8 +101,9 @@ Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 
 ### Dashboard Creation
 Power BI was used to create interactive dashboards, providing a visual representation of the analyzed data.
-          **Sales Analysis Dashboard:** Includes overall sales metrics, revenue and profit margin trends, cumulative sales, and profits by product category.
-          **Salespersons Performance Dashboard:** Highlights individual salesperson performance in terms of sales, profit, and profit percentage.
+
+- **Sales Analysis Dashboard:** Includes overall sales metrics, revenue and profit margin trends, cumulative sales, and profits by product category.
+- **Salespersons Performance Dashboard:** Highlights individual salesperson performance in terms of sales, profit, and profit percentage.
 
 
 ## Results/Findings
