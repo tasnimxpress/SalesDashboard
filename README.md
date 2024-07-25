@@ -4,13 +4,17 @@
 
 - [Project Overview](#project-overview)
 - [Data Sources](#data-sources)
+- [Tools](#Tools)
+- [Data Analysis processes](#Data-Analysis)
 - [Recommendations](#recommendations)
+- 
 
 ### Project Overview
 ---
 
 This data analysis project aims to provide insights into the sales performance of an imaginary store over the past 3 years.
-This project focuses on analyzing comprehensive sales data and creating insightful visualizations using Power BI. The goal is to derive actionable insights into key financial metrics, such as revenue, costs, profit margins, and cumulative sales etc. Additionally, the project evaluate the performance of salespersons, highlighting top performers based on sales and profit metrics. 
+This project focuses on analyzing comprehensive sales data and creating insightful visualizations using Power BI. The goal is to derive actionable insights into key financial metrics, such as revenue, costs, profit margins, cumulative sales, etc. Additionally, the project evaluates salespersons' performance, highlighting top performers based on sales and profit metrics. 
+
 By analyzing various aspects of the sales data, I seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
 
@@ -25,17 +29,20 @@ Sales Data: The primary dataset used for this analysis is the "sales_data.xlxs" 
 - Power BI - Creating reports
 - DAX - Calculate Different Metrics
 
+### Data Analysis
 
-### Data Cleaning/Preparation
+## Data Cleaning/Preparation
 
-In the initial data preparation phase, we performed the following tasks:
+In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
 3. Data cleaning and formatting.
 4. Append sales data from 3 different tables.
+5. Creating data Model.
 
 
-### Exploratory Data Analysis
+
+## Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
 
@@ -50,7 +57,7 @@ EDA involved exploring the sales data to answer key questions, such as:
 - Sales, profit, and profit percentages for each salesperson.
 
 
-### Data Analysis
+### Calculations to find insights
 
 Some DAX/Calculation I worked with:
 
@@ -107,21 +114,9 @@ Based on the analysis, we recommend the following actions:
 
 ### Limitations
 
-I had to remove all zero values from budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
-
-### References
-
-1. SQL for Businesses by werty.
-2. [Stack Overflow](https://stack.com)
-
-😄
+I had to remove all zero values from the budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
 💻
-
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|Python|SQL|
 
 `column_1`
 
