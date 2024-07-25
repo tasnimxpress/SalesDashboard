@@ -6,10 +6,11 @@
 - [Data Sources](#data-sources)
 - [Tools](#Tools)
 - [Data Analysis processes](#Data-Analysis)
+- [Findings](#Results/Findings)
 - [Recommendations](#recommendations)
-- 
+  
 
-### Project Overview
+## Project Overview
 ---
 
 This data analysis project aims to provide insights into the sales performance of an imaginary store over the past 3 years.
@@ -18,20 +19,20 @@ This project focuses on analyzing comprehensive sales data and creating insightf
 By analyzing various aspects of the sales data, I seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
 
 
-### Data Sources
+## Data Sources
 
 Sales Data: The primary dataset used for this analysis is the "sales_data.xlxs" file, containing detailed information about Products, Customers, Locations, Sales Person, and sales data (including 2020, 2021, and 2022 ) in 3 separate sheets, and each sale made by the company.
 
-### Tools
+## Tools
 
 - Excel - Data Source
 - Power Query - Data Cleaning and Preparation
 - Power BI - Creating reports
 - DAX - Calculate Different Metrics
 
-### Data Analysis
+## Data Analysis
 
-## Data Cleaning/Preparation
+### Data Cleaning/Preparation
 
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
@@ -42,7 +43,7 @@ In the initial data preparation phase, I performed the following tasks:
 
 
 
-## Exploratory Data Analysis
+### Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
 
@@ -98,14 +99,14 @@ Profit_Percentage = DIVIDE([Profit],[TotalCost])
 Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 ```
 
-### Results/Findings
+## Results/Findings
 
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
 2. Product Category A is the best-performing category in terms of sales and revenue.
 3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
 
-### Recommendations
+## Recommendations
 
 Based on the analysis, we recommend the following actions:
 - Invest in marketing and promotions during peak sales seasons to maximize revenue.
@@ -117,9 +118,3 @@ Based on the analysis, we recommend the following actions:
 I had to remove all zero values from the budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
 💻
-
-`column_1`
-
-**bold**
-
-*italic*
