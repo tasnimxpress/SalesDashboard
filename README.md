@@ -130,7 +130,7 @@ The analysis results are summarized as follows:
 ## Recommendations
 
 Based on the analysis, we recommend the following actions:
-- Need further investigate to find out why top salespeople failed to achieve profit target. Compare salespersons' performance against industry benchmarks to identify areas for improvement and set realistic targets.
+- Need further investigation to find out why top salespeople failed to achieve profit target. Compare salespersons' performance against industry benchmarks to identify areas for improvement and set realistic targets.
 - Focus on expanding and promoting products in the category Kids & Toys, Marketing in the stationary category can be expanded.
 - While plastics are the least performing category, this department can investigate further.
 - Implement a customer segmentation strategy to target high customers effectively.
