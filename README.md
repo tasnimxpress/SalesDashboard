@@ -11,7 +11,6 @@
   
 
 ## Project Overview
----
 
 This data analysis project aims to provide insights into the sales performance of an imaginary store over the past 3 years.
 This project focuses on analyzing comprehensive sales data and creating insightful visualizations using Power BI. The goal is to derive actionable insights into key financial metrics, such as revenue, costs, profit margins, cumulative sales, etc. Additionally, the project evaluates salespersons' performance, highlighting top performers based on sales and profit metrics. 
@@ -31,7 +30,6 @@ Sales Data: The primary dataset used for this analysis is the "sales_data.xlxs" 
 - DAX - Calculate Different Metrics
 
 ## Data Analysis
----
 
 ### Data Cleaning/Preparation
 
@@ -41,8 +39,6 @@ In the initial data preparation phase, I performed the following tasks:
 3. Data cleaning and formatting.
 4. Append sales data from 3 different tables.
 5. Creating data Model.
-
-
 
 ### Exploratory Data Analysis
 
@@ -57,7 +53,6 @@ EDA involved exploring the sales data to answer key questions, such as:
 - How do revenue, total costs, and profit compare by year?
 - Who are the top-performing salespersons by total sales and profit?
 - Sales, profit, and profit percentages for each salesperson.
-
 
 ### Calculations to find insights
 
@@ -101,7 +96,6 @@ Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 ```
 
 ## Results/Findings
----
 
 The analysis results are summarized as follows:
 1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
@@ -109,15 +103,13 @@ The analysis results are summarized as follows:
 3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
 
 ## Recommendations
----
 
 Based on the analysis, we recommend the following actions:
 - Invest in marketing and promotions during peak sales seasons to maximize revenue.
 - Focus on expanding and promoting products in Category A.
 - Implement a customer segmentation strategy to target high-LTV customers effectively.
 
-### Limitations
----
+## Limitations
 
 I had to remove all zero values from the budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
 
