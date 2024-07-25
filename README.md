@@ -40,6 +40,9 @@ In the initial data preparation phase, I performed the following tasks:
 4. Append sales data from 3 different tables.
 5. Creating data Model.
 
+### Data Model
+![Data Model](https://github.com/tasnimxpress/SalesDashboard/blob/main/Data%20Model.png)
+
 ### Exploratory Data Analysis
 
 EDA involved exploring the sales data to answer key questions, such as:
@@ -53,10 +56,6 @@ EDA involved exploring the sales data to answer key questions, such as:
 - How do revenue, total costs, and profit compare by year?
 - Who are the top-performing salespersons by total sales and profit?
 - Sales, profit, and profit percentages for each salesperson.
-
-### Data Model
-![Data Model](https://github.com/tasnimxpress/SalesDashboard/blob/main/Data%20Model.png)
-
 
 ### Calculations to find insights
 
@@ -103,25 +102,40 @@ Profit Target Indicator = IF([Profit_Percentage]>[Profit Target],2,1)
 Power BI was used to create interactive dashboards, providing a visual representation of the analyzed data.
 
 - **Sales Analysis Dashboard:** Includes overall sales metrics, revenue and profit margin trends, cumulative sales, and profits by product category.
+![Sales Dashboard](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Sales%20analysis%20dashboard%20.png)
+
 - **Salespersons Performance Dashboard:** Highlights individual salesperson performance in terms of sales, profit, and profit percentage.
+![Salespersons Performance](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Sales%20Persons%20Performance.png)
+![Total Sales Line Chart](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Total%20Sales%20%26%20Profit%20Chart.png)
 
 
 ## Results/Findings
 
 The analysis results are summarized as follows:
-1. The company's sales have been steadily increasing over the past year, with a noticeable peak during the holiday season.
-2. Product Category A is the best-performing category in terms of sales and revenue.
-3. Customer segments with high lifetime value (LTV) should be targeted for marketing efforts.
+
+1. Total Costs are 17.32 Million, Total revenue 25.66 Million, Whereas, Total Profit is 8.34 Million with a 32.52% profit margin.
+2. The company's sales have been steadily increasing over the past year, with a noticeable peak during January and February.
+3. Product Category Kids & Toys is the best-performing category in terms of profits, with the highest profitability at 43.18%.
+4. Revenue and Profit Margin: Displayed quarterly, showing trends and fluctuations over time.
+5. Cumulative Sales over Period: A line chart illustrating the growth of cumulative sales from 2020 to 2022.
+6. Revenue, Total Costs & Profit by Year: A bar chart comparing annual revenue, total costs, and profit, indicating financial performance across the years.
+   
+**Salespersons Performance Dashboard**
+
+1. Top Salespersons by Total Sales: Kenneth Bradley led with $0.68M in sales, followed by Ryan Welch and Bobby Russell.
+2. Profit Performance vs. Sales Performance: Jeremy Mendoza achieved the highest profit percentage at 52.24%, with Jerry Perry and Scott Mason also showing consistent profit performance. While Kenneth Bradley had the highest total sales, he did not have the highest profit percentage.
+3. Target Profit Achievement: The data reveals that only a few salespersons met the target profit percentage. Most salespeople did not achieve the target. Notably, Kenneth Bradley is the only top salesperson by sales who also met the target profit percentage.
 
 ## Recommendations
 
 Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak sales seasons to maximize revenue.
-- Focus on expanding and promoting products in Category A.
-- Implement a customer segmentation strategy to target high-LTV customers effectively.
+- Need further investigate to find out why top salespeople failed to achieve profit target. Compare salespersons' performance against industry benchmarks to identify areas for improvement and set realistic targets.
+- Focus on expanding and promoting products in the category Kids & Toys, Marketing in the stationary category can be expanded.
+- While plastics are the least performing category, this department can investigate further.
+- Implement a customer segmentation strategy to target high customers effectively.
 
 ## Limitations
 
-I had to remove all zero values from the budget and revenue columns because they would have affected the accuracy of my conclusions from the analysis. There are still a few outliers even after the omissions but even then we can still see that there is a positive correlation between both budget and number of votes with revenue.
+The analysis is based on historical data, which may not fully capture future market dynamics or unforeseen events that could impact sales performance. Factors affecting profit margins, such as changes in cost structures or pricing strategies, are not explicitly addressed in the analysis.
 
 💻
