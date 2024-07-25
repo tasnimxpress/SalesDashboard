@@ -20,7 +20,7 @@ By analyzing various aspects of the sales data, I seek to identify trends, make 
 
 ## Data Sources
 
-Sales Data: The primary dataset used for this analysis is the "sales_data.xlxs" file, containing detailed information about Products, Customers, Locations, Sales Person, and sales data (including 2020, 2021, and 2022 ) in 3 separate sheets, and each sale made by the company.
+Sales Data: The primary dataset used for this analysis is the "Sales Data.xlsx" file, containing detailed information about Products, Customers, Locations, Sales Person, and sales data (including 2020, 2021, and 2022 ) in 3 separate sheets, and each sale made by the company.
 
 ## Tools
 
