@@ -105,6 +105,7 @@ Power BI was used to create interactive dashboards, providing a visual represent
 ![Sales Dashboard](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Sales%20analysis%20dashboard%20.png)
 
 - **Salespersons Performance Dashboard:** Highlights individual salesperson performance in terms of sales, profit, and profit percentage.
+  
 ![Salespersons Performance](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Sales%20Persons%20Performance.png)
 ![Total Sales Line Chart](https://github.com/tasnimxpress/SalesDashboard/blob/main/Dashboard/Total%20Sales%20%26%20Profit%20Chart.png)
 
