@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
-- [Business Problem Addressed] (#Business-problem-addressed)
+- [Business Problem Addressed](#business-problem-addressed)
 - [Data Sources](#data-sources)
 - [Tools](#Tools)
 - [Data Analysis processes](#Data-Analysis)
