@@ -23,13 +23,13 @@ This project addresses the challenge of understanding and improving sales perfor
 
 1. Lack of Comprehensive Sales Insights: The business struggles to consolidate and analyze sales data from multiple sources, making it difficult to gain a clear understanding of overall sales performance and trends.
 
-2. Identifying Top and Bottom Performers: There is a need to evaluate the performance of salespersons to identify top performers and those who need improvement, which is crucial for targeted training and performance incentives.
+2. Sales persons Performermance: There is a need to evaluate the performance of salespersons to identify top performers and those who need improvement, which is crucial for targeted training and performance incentives.
 
 3. Product Performance Analysis: The business lacks detailed insights into which product categories contribute most to revenue and profit, hindering effective inventory management and marketing strategies.
 
-4. Understanding Profit Margins: There is a need to analyze profit margins across different products and sales channels to optimize pricing strategies and cost management.
+4. Understanding KPIs: There is a need to keep track of business KPIs includes: revenue, total sales, profit percentage, profit margins to optimize strategies and cost management.
 
-5. Sales Trend Analysis: The business requires a detailed analysis of sales trends over time to inform marketing campaigns, promotional activities, and inventory planning.
+5. Sales Trend Analysis: The business requires a detailed analysis of sales trend to inform marketing campaigns, promotional activities, and inventory planning.
 
 
 ## Data Sources
