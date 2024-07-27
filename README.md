@@ -3,6 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Business Problem Addressed] (#Business-problem-addressed)
 - [Data Sources](#data-sources)
 - [Tools](#Tools)
 - [Data Analysis processes](#Data-Analysis)
@@ -16,6 +17,19 @@ This data analysis project aims to provide insights into the sales performance o
 This project focuses on analyzing comprehensive sales data and creating insightful visualizations using Power BI. The goal is to derive actionable insights into key financial metrics, such as revenue, costs, profit margins, cumulative sales, etc. Additionally, the project evaluates salespersons' performance, highlighting top performers based on sales and profit metrics. 
 
 By analyzing various aspects of the sales data, I seek to identify trends, make data-driven recommendations, and gain a deeper understanding of the company's performance.
+
+## Business Problem Addressed
+This project addresses the challenge of understanding and improving sales performance in a retail environment. The specific business problems it aims to solve include:
+
+1. Lack of Comprehensive Sales Insights: The business struggles to consolidate and analyze sales data from multiple sources, making it difficult to gain a clear understanding of overall sales performance and trends.
+
+2. Identifying Top and Bottom Performers: There is a need to evaluate the performance of salespersons to identify top performers and those who need improvement, which is crucial for targeted training and performance incentives.
+
+3. Product Performance Analysis: The business lacks detailed insights into which product categories contribute most to revenue and profit, hindering effective inventory management and marketing strategies.
+
+4. Understanding Profit Margins: There is a need to analyze profit margins across different products and sales channels to optimize pricing strategies and cost management.
+
+5. Sales Trend Analysis: The business requires a detailed analysis of sales trends over time to inform marketing campaigns, promotional activities, and inventory planning.
 
 
 ## Data Sources
